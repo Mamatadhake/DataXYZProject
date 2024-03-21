@@ -1,0 +1,1 @@
+{"uuid":"fd6b177d-a667-4cb4-b15d-474aa37ffa0e","name":"Surefire test","children":["5057edeb-c779-4318-a585-f6d5d207b3da"],"befores":[],"afters":[{"name":"DriverClose","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1711007386960,"stop":1711007388880}],"start":1711007356499,"stop":1711007388909}
