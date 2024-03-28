@@ -17,22 +17,22 @@ public class NewTest {
 		  BaseClass.BrokenURL();
 	  }
   
-  @Test(enabled=false)
+  @Test(enabled=true)
   public void HomePage() throws Exception{ 
 	   Utility.WebPage(Utility.GetURL("URL", 1, 0));
 	  
   }
-  @Test(enabled=false)
+  @Test(enabled=true)
   public void OurDataPage() throws Exception{ 
 	   Utility.WebPage(Utility.GetURL("URL", 2, 0));
 	  
  }
-  @Test(enabled=false)
+  @Test(enabled=true)
   public void WhyUsPage() throws Exception{ 
 	   Utility.WebPage(Utility.GetURL("URL", 3, 0));
 	  
  }
-  @Test(enabled=false)
+  @Test(enabled=true)
   public void PricingPage() throws Exception{ 
 	   Utility.WebPage(Utility.GetURL("URL", 4, 0));
 	  
