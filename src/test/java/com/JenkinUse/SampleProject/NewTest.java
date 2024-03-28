@@ -11,30 +11,35 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class NewTest {  
 	
-	@Test(enabled=true)
+	@Test(enabled=false)
 	public void MachintelContent() throws Exception{
 		  
 		  BaseClass.BrokenURL();
 	  }
   
-  @Test(enabled=true)
+  @Test(enabled=false)
   public void HomePage() throws Exception{ 
-	   Utility.WebPage(Utility.GetURL("URL", 1, 0));
+	   Utility.WebPage(Utility.GetURL("DataXYZ", 1, 0));
 	  
   }
-  @Test(enabled=true)
+  @Test(enabled=false)
   public void OurDataPage() throws Exception{ 
-	   Utility.WebPage(Utility.GetURL("URL", 2, 0));
+	   Utility.WebPage(Utility.GetURL("DataXYZ", 2, 0));
 	  
  }
-  @Test(enabled=true)
+  @Test(enabled=false)
   public void WhyUsPage() throws Exception{ 
-	   Utility.WebPage(Utility.GetURL("URL", 3, 0));
+	   Utility.WebPage(Utility.GetURL("DataXYZ", 3, 0));
+	  
+ }
+  @Test(enabled=false)
+  public void PricingPage() throws Exception{ 
+	   Utility.WebPage(Utility.GetURL("DataXYZ", 4, 0));
 	  
  }
   @Test(enabled=true)
-  public void PricingPage() throws Exception{ 
-	   Utility.WebPage(Utility.GetURL("URL", 4, 0));
+  public void ContentHubPage() throws Exception{ 
+	   Utility.WebPage(Utility.GetURL("DataXYZ", 5, 0));
 	  
  }
  

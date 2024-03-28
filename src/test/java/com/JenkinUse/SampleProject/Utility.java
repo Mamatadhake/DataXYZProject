@@ -7,9 +7,11 @@ import java.net.MalformedURLException;
 import java.net.URL;
 import java.util.ArrayList;
 import java.util.List;
+import java.util.concurrent.TimeUnit;
 
 import org.apache.poi.xssf.usermodel.XSSFSheet;
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;
+import org.bouncycastle.oer.its.ieee1609dot2.basetypes.Duration;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -35,6 +37,7 @@ public class Utility {
 	 public static void  WebPage(String SinglePage) throws Exception 
 	 {   driver=Utility.DriverObject(); 
 		  driver.get(SinglePage); VerifPageURL(SinglePage);
+		 
           List<WebElement> Buttons= driver.findElements(By.xpath("//*[@id=\"main\"]//a"));//*[@id=\"main\"]/div/div[1]//a
           for(WebElement SingleButtons:Buttons ) {String URL= SingleButtons.getAttribute("href"); VerifySubURL(SingleButtons);}
          driver.close();

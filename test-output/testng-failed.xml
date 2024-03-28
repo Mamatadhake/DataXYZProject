@@ -5,7 +5,7 @@
     <classes>
       <class name="com.JenkinUse.SampleProject.NewTest">
         <methods>
-          <include name="WhyUsPage"/>
+          <include name="ContentHubPage"/>
         </methods>
       </class> <!-- com.JenkinUse.SampleProject.NewTest -->
     </classes>
