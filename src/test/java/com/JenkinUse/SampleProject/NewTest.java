@@ -9,32 +9,37 @@ import org.testng.annotations.Test;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 
-public class NewTest {
+public class NewTest {  
 	
+	@Test
+	public void MachintelContent() throws Exception{
+		  
+		  BaseClass.BrokenURL();
+	  }
   
-  
-  
-  @Test
+  @Test(enabled=false)
   public void HomePage() throws Exception{ 
-	   Utility.WebPage("https://data.xyz/");
+	   Utility.WebPage(Utility.GetURL("URL", 1, 0));
 	  
   }
-  @Test
+  @Test(enabled=false)
   public void OurDataPage() throws Exception{ 
-	   Utility.WebPage("https://data.xyz/our-data/");
+	   Utility.WebPage(Utility.GetURL("URL", 2, 0));
 	  
  }
-  @Test
+  @Test(enabled=false)
   public void WhyUsPage() throws Exception{ 
-	   Utility.WebPage("https://data.xyz/why-us/");
+	   Utility.WebPage(Utility.GetURL("URL", 3, 0));
 	  
  }
-  @Test
+  @Test(enabled=false)
   public void PricingPage() throws Exception{ 
-	   Utility.WebPage("https://data.xyz/pricing/");
+	   Utility.WebPage(Utility.GetURL("URL", 4, 0));
 	  
  }
  
+
+  
   
 
 }

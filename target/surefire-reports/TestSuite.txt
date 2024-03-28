@@ -1,4 +1,28 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 36.695 s - in TestSuite
+Tests run: 4, Failures: 4, Errors: 0, Skipped: 0, Time elapsed: 0.902 s <<< FAILURE! - in TestSuite
+HomePage(com.JenkinUse.SampleProject.NewTest)  Time elapsed: 0.089 s  <<< FAILURE!
+java.lang.NoClassDefFoundError: org/apache/poi/xssf/usermodel/XSSFWorkbook
+	at com.JenkinUse.SampleProject.NewTest.HomePage(NewTest.java:19)
+Caused by: java.lang.ClassNotFoundException: org.apache.poi.xssf.usermodel.XSSFWorkbook
+	at com.JenkinUse.SampleProject.NewTest.HomePage(NewTest.java:19)
+
+OurDataPage(com.JenkinUse.SampleProject.NewTest)  Time elapsed: 0.007 s  <<< FAILURE!
+java.lang.NoClassDefFoundError: org/apache/poi/xssf/usermodel/XSSFWorkbook
+	at com.JenkinUse.SampleProject.NewTest.OurDataPage(NewTest.java:24)
+Caused by: java.lang.ClassNotFoundException: org.apache.poi.xssf.usermodel.XSSFWorkbook
+	at com.JenkinUse.SampleProject.NewTest.OurDataPage(NewTest.java:24)
+
+PricingPage(com.JenkinUse.SampleProject.NewTest)  Time elapsed: 0.006 s  <<< FAILURE!
+java.lang.NoClassDefFoundError: org/apache/poi/xssf/usermodel/XSSFWorkbook
+	at com.JenkinUse.SampleProject.NewTest.PricingPage(NewTest.java:34)
+Caused by: java.lang.ClassNotFoundException: org.apache.poi.xssf.usermodel.XSSFWorkbook
+	at com.JenkinUse.SampleProject.NewTest.PricingPage(NewTest.java:34)
+
+WhyUsPage(com.JenkinUse.SampleProject.NewTest)  Time elapsed: 0.006 s  <<< FAILURE!
+java.lang.NoClassDefFoundError: org/apache/poi/xssf/usermodel/XSSFWorkbook
+	at com.JenkinUse.SampleProject.NewTest.WhyUsPage(NewTest.java:29)
+Caused by: java.lang.ClassNotFoundException: org.apache.poi.xssf.usermodel.XSSFWorkbook
+	at com.JenkinUse.SampleProject.NewTest.WhyUsPage(NewTest.java:29)
+
