@@ -1,28 +1,56 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 4, Failures: 4, Errors: 0, Skipped: 0, Time elapsed: 0.902 s <<< FAILURE! - in TestSuite
-HomePage(com.JenkinUse.SampleProject.NewTest)  Time elapsed: 0.089 s  <<< FAILURE!
-java.lang.NoClassDefFoundError: org/apache/poi/xssf/usermodel/XSSFWorkbook
-	at com.JenkinUse.SampleProject.NewTest.HomePage(NewTest.java:19)
-Caused by: java.lang.ClassNotFoundException: org.apache.poi.xssf.usermodel.XSSFWorkbook
-	at com.JenkinUse.SampleProject.NewTest.HomePage(NewTest.java:19)
+Tests run: 4, Failures: 4, Errors: 0, Skipped: 0, Time elapsed: 14.895 s <<< FAILURE! - in TestSuite
+HomePage(com.JenkinUse.SampleProject.NewTest)  Time elapsed: 5.954 s  <<< FAILURE!
+org.openqa.selenium.NoSuchWindowException: 
+no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=122.0.6261.131)
+Build info: version: '4.18.1', revision: 'b1d3319b48'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [692b1ec742973415d8b0ffc59f876cd8, close {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 122.0.6261.131, chrome: {chromedriverVersion: 122.0.6261.128 (f18a44fedeb..., userDataDir: C:\Users\MAMATA~1.DHA\AppDa...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64013}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64013/devtoo..., se:cdpVersion: 122.0.6261.131, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 692b1ec742973415d8b0ffc59f876cd8
+	at com.JenkinUse.SampleProject.NewTest.HomePage(NewTest.java:22)
 
-OurDataPage(com.JenkinUse.SampleProject.NewTest)  Time elapsed: 0.007 s  <<< FAILURE!
-java.lang.NoClassDefFoundError: org/apache/poi/xssf/usermodel/XSSFWorkbook
-	at com.JenkinUse.SampleProject.NewTest.OurDataPage(NewTest.java:24)
-Caused by: java.lang.ClassNotFoundException: org.apache.poi.xssf.usermodel.XSSFWorkbook
-	at com.JenkinUse.SampleProject.NewTest.OurDataPage(NewTest.java:24)
+OurDataPage(com.JenkinUse.SampleProject.NewTest)  Time elapsed: 2.962 s  <<< FAILURE!
+org.openqa.selenium.NoSuchWindowException: 
+no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=122.0.6261.131)
+Build info: version: '4.18.1', revision: 'b1d3319b48'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [385bc88062d34162cadbedfc23fe0208, findElements {using=xpath, value=//*[@id="main"]//a}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 122.0.6261.131, chrome: {chromedriverVersion: 122.0.6261.128 (f18a44fedeb..., userDataDir: C:\Users\MAMATA~1.DHA\AppDa...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64058}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64058/devtoo..., se:cdpVersion: 122.0.6261.131, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 385bc88062d34162cadbedfc23fe0208
+	at com.JenkinUse.SampleProject.NewTest.OurDataPage(NewTest.java:27)
 
-PricingPage(com.JenkinUse.SampleProject.NewTest)  Time elapsed: 0.006 s  <<< FAILURE!
-java.lang.NoClassDefFoundError: org/apache/poi/xssf/usermodel/XSSFWorkbook
-	at com.JenkinUse.SampleProject.NewTest.PricingPage(NewTest.java:34)
-Caused by: java.lang.ClassNotFoundException: org.apache.poi.xssf.usermodel.XSSFWorkbook
-	at com.JenkinUse.SampleProject.NewTest.PricingPage(NewTest.java:34)
+PricingPage(com.JenkinUse.SampleProject.NewTest)  Time elapsed: 2.352 s  <<< FAILURE!
+org.openqa.selenium.NoSuchWindowException: 
+no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=122.0.6261.131)
+Build info: version: '4.18.1', revision: 'b1d3319b48'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [e1181defd793ce70f382ab8d158502de, findElements {using=xpath, value=//*[@id="main"]//a}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 122.0.6261.131, chrome: {chromedriverVersion: 122.0.6261.128 (f18a44fedeb..., userDataDir: C:\Users\MAMATA~1.DHA\AppDa...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64085}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64085/devtoo..., se:cdpVersion: 122.0.6261.131, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: e1181defd793ce70f382ab8d158502de
+	at com.JenkinUse.SampleProject.NewTest.PricingPage(NewTest.java:37)
 
-WhyUsPage(com.JenkinUse.SampleProject.NewTest)  Time elapsed: 0.006 s  <<< FAILURE!
-java.lang.NoClassDefFoundError: org/apache/poi/xssf/usermodel/XSSFWorkbook
-	at com.JenkinUse.SampleProject.NewTest.WhyUsPage(NewTest.java:29)
-Caused by: java.lang.ClassNotFoundException: org.apache.poi.xssf.usermodel.XSSFWorkbook
-	at com.JenkinUse.SampleProject.NewTest.WhyUsPage(NewTest.java:29)
+WhyUsPage(com.JenkinUse.SampleProject.NewTest)  Time elapsed: 2.676 s  <<< FAILURE!
+org.openqa.selenium.NoSuchWindowException: 
+no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=122.0.6261.131)
+Build info: version: '4.18.1', revision: 'b1d3319b48'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [c47331bf4b1b415743a7bef4441e88c4, findElements {using=xpath, value=//*[@id="main"]//a}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 122.0.6261.131, chrome: {chromedriverVersion: 122.0.6261.128 (f18a44fedeb..., userDataDir: C:\Users\MAMATA~1.DHA\AppDa...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64112}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64112/devtoo..., se:cdpVersion: 122.0.6261.131, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: c47331bf4b1b415743a7bef4441e88c4
+	at com.JenkinUse.SampleProject.NewTest.WhyUsPage(NewTest.java:32)
 

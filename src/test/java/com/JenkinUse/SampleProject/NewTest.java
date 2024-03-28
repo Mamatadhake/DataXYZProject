@@ -11,7 +11,7 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class NewTest {  
 	
-	@Test
+	@Test(enabled=true)
 	public void MachintelContent() throws Exception{
 		  
 		  BaseClass.BrokenURL();
