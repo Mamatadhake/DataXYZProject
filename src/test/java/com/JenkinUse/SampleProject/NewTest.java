@@ -3,13 +3,20 @@ package com.JenkinUse.SampleProject;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
+import org.testng.annotations.AfterClass;
 import org.testng.annotations.AfterTest;
+import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
+
+import com.relevantcodes.extentreports.ExtentReports;
+import com.relevantcodes.extentreports.ExtentTest;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class NewTest {  
+	 static ExtentReports report;
+	 
 	
 	@Test(enabled=false)
 	public void MachintelContent() throws Exception{
@@ -17,7 +24,7 @@ public class NewTest {
 		  BaseClass.BrokenURL();
 	  }
   
-  @Test(enabled=false)
+  @Test(enabled=true)
   public void HomePage() throws Exception{ 
 	   Utility.WebPage(Utility.GetURL("DataXYZ", 1, 0));
 	  
@@ -37,14 +44,12 @@ public class NewTest {
 	   Utility.WebPage(Utility.GetURL("DataXYZ", 4, 0));
 	  
  }
-  @Test(enabled=true)
+  @Test(enabled=false)
   public void ContentHubPage() throws Exception{ 
 	   Utility.WebPage(Utility.GetURL("DataXYZ", 5, 0));
 	  
  }
  
-
-  
-  
+    
 
 }

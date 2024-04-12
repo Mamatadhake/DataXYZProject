@@ -41,5 +41,23 @@
 	<classpathentry kind="lib" path="D:/Automation/Software/Apache_Poi_5.2.3/poi-ooxml-lite-5.2.3.jar"/>
 	<classpathentry kind="lib" path="D:/Automation/Software/Apache_Poi_5.2.3/SparseBitSet-1.2.jar"/>
 	<classpathentry kind="lib" path="D:/Automation/Software/Apache_Poi_5.2.3/xmlbeans-5.1.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Mamata.dhake/.m2/repository/org/seleniumhq/selenium/selenium-support/4.16.0/selenium-support-4.16.0.jar" sourcepath="C:/Users/Mamata.dhake/.m2/repository/org/seleniumhq/selenium/selenium-support/4.16.0/selenium-support-4.16.0-sources.jar">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+			<attribute name="maven.groupId" value="org.seleniumhq.selenium"/>
+			<attribute name="maven.artifactId" value="selenium-support"/>
+			<attribute name="maven.version" value="4.16.0"/>
+			<attribute name="maven.scope" value="compile"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/Mamata.dhake/.m2/repository/org/seleniumhq/selenium/selenium-support/4.18.1/selenium-support-4.18.1.jar" sourcepath="C:/Users/Mamata.dhake/.m2/repository/org/seleniumhq/selenium/selenium-support/4.18.1/selenium-support-4.18.1-sources.jar">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+			<attribute name="maven.groupId" value="org.seleniumhq.selenium"/>
+			<attribute name="maven.artifactId" value="selenium-support"/>
+			<attribute name="maven.version" value="4.18.1"/>
+			<attribute name="maven.scope" value="compile"/>
+		</attributes>
+	</classpathentry>
 	<classpathentry kind="output" path="target/classes"/>
 </classpath>
